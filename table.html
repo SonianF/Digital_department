@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+ <title>Лабораторная работа 4</title>
+ <link rel="stylesheet" href="table.css"/>
+ </head>
+ 
+ <body>
+	 <div class="header">
+	 	<a class="p" href="первая_html-страница.html" target="_blank">Основная страница</a>
+	 	<a class="p" href="page2.html" target="_blank">Позиционирование элементов</a>
+	 	<a class="p" href="table.html" target="_blank">Таблица</a>
+	 </div>
+<div class="content">
+<div class="content-left">
+<table  class="text">
+<caption class="caption"> Учебные дисциплины 3 семестр </caption>
+<thead>
+<tr class="rowgroup-2 header_tr">
+	<th> Название диспицлины</th>
+	<th colspan="2"> Ф. И. О. преподавателя</th>
+	<th> Оценка знаний</th>
+	<th> Условия для получения хорошо/отлично</th>
+</tr>
+</thead>
+<tbody>
+<tr c>
+	<td> Теория вероятностей и математическая статистика</td>
+	<td> Кнутова</td>
+	<td>Еленa Михайловна</td>
+	<td> Зачет</td>
+	<td> Написать итоговую контрольную работу на 4/5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td rowspan="2"> ООП</td>
+	<td > Благов </td>
+	<td> Александр Владимирович</td>
+	<td rowspan="2"> Экзамен</td>
+	<td rowspan="2"> Писать тестики, присутствовать на парах, сдать все лабы до 1.12, чтобы получить больше баллов и получить автомат</td> 
+</tr>
+<tr>
+	<td> Фомченков</td>
+	<td> Сергей Александрович</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td rowspan="2"> Алгебраические структуры</td>
+	<td > Додонова </td>
+	<td > Наталья Леонидовна</td>
+	<td rowspan="2"> Зачет</td>
+	<td rowspan="2"> Написать все контрольные и ИДЗ выше, чем на 3, выходить к доске на парах</td>
+</tr>
+<tr >
+	<td> Урывская</td>
+	<td> Дарья Александровна</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td> Математический анализ</td>
+	<td> Яблокова </td>
+	<td>Людмила Вениаминовна</td>
+	<td> Экзамен</td>
+	<td> Делать ИДЗ, работать на парах</td>
+</tr>
+</tbody>
+<tbody>
+<tr >
+	<td> Физика</td>
+	<td> Кренц </td>
+	<td> Антон Анатольевич </td>
+	<td> Зачет</td>
+	<td> Выходить к доске, писать вовремя лабы</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td> Дифференциальные уравнения</td>
+	<td> Щетинина</td>
+	<td> Екатерина Владимировна </td>
+	<td> Экзамен</td>
+	<td> Написать на 4/5 все контрольные, делать задачи со *, участвовать в лекцияъх</td>
+</tr>
+</tbody>
+<tbody>
+<tr> 
+	<td> ИОТ</td>
+	<td> Масленкова </td>
+	<td> Наталья Александровна</td>
+	<td> Зачет</td>
+	<td> ?????</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td> Английский</td>
+	<td> Агуреева </td>
+	<td> Алина Викторовна</td>
+	<td> Экзамен</td>
+	<td> Сдавать все темы вовремя /придти на экзамен с выученными топиками</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td> Основы яызкознания</td>
+	<td> Курапова </td>
+	<td>Елена Сергеевна</td>
+	<td> Зачет</td>
+	<td> Отвечать на парах</td>
+	</tr>
+</table>
+</div>
+
+<div class="content-right">
+<form >
+<fieldset>
+<legend>Добавить новую дисциплину</legend>
+<label for="name_d"> Название диспицлины</label><br>
+<input type="text" id="name_d" name="name_d" placeholder="Математический анализ"><br>
+<label for="sname"> Фамилия</label><br>
+<input type="text" id="sname" name="sname" placeholder="Федорова"><br><br>
+<label for="fname"> Имя Отчество</label><br>
+<input type="text" id="fname" name="fname" placeholder="Софья Александровна"><br><br>
+<label for="grade"> Оценка знаний </label>
+<select id="grade" name="grade">
+<option value="exam"> Экзамен </option>
+<option value="test"> Зачет </option>
+</select>
+<br><br>
+<textarea name="message" rows="10" cols="20"> Условия для получения хорошо/отлично</textarea>
+<br>
+<input type="submit" class="submit">
+</fieldset>
+</form>
+</div>
+</div>
+
+
+</body> 
